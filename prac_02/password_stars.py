@@ -4,11 +4,11 @@ MIN_LENGTH = 8
 
 def main():
     password = get_password()
-    print_asterisks(password,'*')
+    stars = print_symbols(password,'*')
+    print(stars)
 
-
-def print_asterisks(password, symbol='*'):
-    print("Your password is", symbol * len(password))
+def print_symbols(password, symbol='*'):
+    return f"Your password is {symbol * len(password)}"
 
 def get_password():
     password = input("Enter password: ")
