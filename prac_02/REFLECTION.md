@@ -25,4 +25,4 @@ Learning to write the syntax correctly on paper instead of relying on an IDE
 
 ## What are you doing really well for practicals in this subject?
 
-Ensuring my code follows the instruction
+Ensuring my code follows the instructions
