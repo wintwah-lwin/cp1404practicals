@@ -26,5 +26,4 @@ def get_score_result(score):
     else:
         return "Bad"
 
-
 main()
